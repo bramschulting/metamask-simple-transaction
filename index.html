@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Metamask test</title>
+  </head>
+  <body>
+
+    <form id="form" onsubmit="return false;">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label for="eth">ETH amount</label>
+            </td>
+            <td>
+              <input type="number" name="eth" id="eth" placeholder="1337">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">To address</label>
+            </td>
+            <td>
+              <input type="text" name="address" id="address" placeholder="0x0000000">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit" name="button">
+                Send eth
+              </button>
+            </td>
+            <td>
+              <span id="result"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <script src="./dist/app.js" charset="utf-8"></script>
+  </body>
+</html>

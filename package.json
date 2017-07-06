@@ -1,0 +1,11 @@
+{
+  "name": "metamask-simple-transaction",
+  "version": "1.0.0",
+  "description": "Simple website to send transactions using the Metamask extension",
+  "main": "src/index.js",
+  "author": "Bram Schulting <bramschulting@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^0.19.1"
+  }
+}
